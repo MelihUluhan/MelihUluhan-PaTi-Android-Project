@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">PaTi</string>
+    <string name="title_login">PaTi</string>
+    <string name="hint_login">Enter username</string>
+    <string name="button_login">Login</string>
+    <string name="back"><u>Back</u> </string>
+    <string name="password">Password</string>
+    <string name="tag">Let\'s take care of my paw animals</string>
+    <string name="hint_password">Enter password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="pati">Welcome to PaTi</string>
+    <string name="post">POST</string>
+    <string name="welcome_tw">You can add an image by clicking the button</string>
+    <string name="donate_msg"><b>If you want to help our adorable friends, donate now through THKD! </b>THKD is an association that care and sheltering of animals. Make a donation today and contribute to THKDs efforts in helping stray animals.</string>
+    <string name="donate_msg1">To donate, please long press the button.</string>
+    <string name="donate_title">MAKE A DONATION, SAVE MANY LIVES</string>
+    <string name="forgot_password"><u>Forgot password</u></string>
+    <string name="information">Please enter your informations.</string>
+    <string name="explanation">Explanation</string>
+    <string name="address">Address</string>
+    <string name="tel">Tel</string>
+    <string name="addPost">Add Post</string>
+    <string name="profile">PROFILE</string>
+    <string name="enterInfo">Please enter your informations.</string>
+    <string name="donate_button">DONATE</string>
+    <string name="upload_sick_animal">Upload the information of our friend who you think is sick so that the authorities can take care of it! 🚑</string>
+    <string name="post_now">POST NOW</string>
+    <string name="upload_lost_animal">Lost your pet? Publish a post to be found immediately! We hope you get it as soon as possible 😔</string>
+
+</resources>

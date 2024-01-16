@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bottom"
+    app:startDestination="@+id/lostAnimalFragment">
+
+    <fragment
+        android:id="@+id/lostAnimalFragment"
+        android:name="com.example.pati.LostAnimal"
+        android:label="Lost Animal Fragment"
+        tools:layout="@layout/fragment_lost_animal" >
+        <action
+            android:id="@+id/action_lostAnimalFragment_to_addPostLostAnimal"
+            app:destination="@id/addPostLostAnimal" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sickAnimalFragment"
+        android:name="com.example.pati.SickAnimal"
+        android:label="Sick Animal Fragment"
+        tools:layout="@layout/fragment_sick_animal" >
+        <action
+            android:id="@+id/action_sickAnimalFragment_to_addPostSickAnimal"
+            app:destination="@id/addPostSickAnimal" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/donationFragment"
+        android:name="com.example.pati.Donation"
+        android:label="Donation Fragment"
+        tools:layout="@layout/fragment_donation" />
+    <fragment
+        android:id="@+id/addPostLostAnimal"
+        android:name="com.example.pati.AddPostLostAnimal"
+        android:label="AddPostLostAnimal" >
+        <action
+            android:id="@+id/action_addPostLostAnimal_to_lostAnimalFragment2"
+            app:destination="@id/lostAnimalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPostSickAnimal"
+        android:name="com.example.pati.AddPostSickAnimal"
+        android:label="AddPostSickAnimal" >
+        <action
+            android:id="@+id/action_addPostSickAnimal_to_sickAnimalFragment"
+            app:destination="@id/sickAnimalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.pati.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

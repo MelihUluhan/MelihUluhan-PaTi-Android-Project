@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.pati.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_lostAnimal"
+            app:destination="@id/lostAnimal" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/lostAnimal"
+        android:name="com.example.pati.LostAnimal"
+        android:label="fragment_add_post_lost_animal"
+        tools:layout="@layout/fragment_add_post_lost_animal" />
+
+</navigation>

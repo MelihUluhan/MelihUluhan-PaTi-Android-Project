@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_lost_animal"
+        android:icon="@drawable/lost_animal"
+        android:title="Lost Animal" />
+    <item
+        android:id="@+id/action_sick_animal"
+        android:icon="@drawable/sick_animal"
+        android:title="Sick Animal" />
+    <item
+        android:id="@+id/action_donation"
+        android:icon="@drawable/donate_animal"
+        android:title="Donation" />
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/pawprint"
+        android:title="Profile" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Log Out" />
+
+</menu>
